@@ -50,6 +50,13 @@ voice 的完整列表可以参考 https://speech.platform.bing.com/consumer/spee
 
 本 HTTP 服务器实现较简单，使用多线程模型，没有使用线程池，仅适用于低并发。
 
+## 构建
+
+```bash
+git clone https://github.com/ganlvtech/re-ttscat-edge-tts-server.git
+cargo build --release
+```
+
 ## LICENSE
 
 MIT License
